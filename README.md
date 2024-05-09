@@ -1,0 +1,1 @@
+This is a basic to do list app with features to add item to the list and remove items from the list
