@@ -11,9 +11,10 @@
 
 <body>
     <div class="container">
-        <div class="row bg-dark mb-4">
+        <div class="row bg-dark">
+            <div class="col"></div>
 
-            <div class="col-8 mx-auto mb-3">
+            <div class="col-6 ">
                 <h5 class="text-theme text-center mb-3">
                     TO-DO LIST
                 </h5>
@@ -30,28 +31,23 @@
                 </form>
             </div>
 
+            <div class="col"></div>
         </div>
-        
         <div class="row">
-            <div class="col-8 offset-md-2">
+            <div class="col-12">
                 <div class="input-group">
                     <div class="input-group-prepend">
-                      <div class="input-group-text d-block bg-transparent border-0">
-                      <input 
-                        type="radio" 
-                        class=""
-                        >
+                      <div class="input-group-text">
+                      <input type="radio" aria-label="Radio button for following text input">
                       </div>
                     </div>
                     <input 
                         type="text" 
-                        class="form-control border-0" 
-                        value="Go to the gym" 
+                        class="form-control" 
                         >
                     <div class="input-group-append">
-                        <button type="button" class="form-control close border-0" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
+                        <span class="input-group-text">$</span>
+                        <span class="input-group-text">0.00</span>
                     </div>
                   </div>
                 
